@@ -6,7 +6,7 @@ module.exports = {
   title: '🌳 Green Deeds',
   tagline: 'Empower nature to be self sustainable',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/website/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
