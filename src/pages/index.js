@@ -9,7 +9,7 @@ import HomepageFeatures from '../components/HomepageFeatures'
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className='container'>
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
@@ -36,7 +36,7 @@ function WhitePaperSection() {
           <a
             href='whitepaper.pdf'
             target='_blank'
-            className='button button--secondary button--lg'
+            className='button button--primary button--lg'
           >
             {' '}
             Read our Whitepaper 📖
@@ -55,9 +55,7 @@ export default function Home() {
       description='Description will go into a meta tag in <head />'
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <HomepageFeatures />
       <WhitePaperSection />
     </Layout>
   )

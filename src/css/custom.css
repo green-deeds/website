@@ -32,27 +32,65 @@
   --ifm-color-gray-800: #295855;
   --ifm-color-gray-900: #133537;
   --ifm-color-gray-1000: #0d2124;
+  --ifm-toc-border-color: var(--ifm-color-primary-lighter);
+  --ifm-color-logo: var(--ifm-color-gray-1000);
+}
+
+.navbar__brand svg {
+  color: var(--ifm-color-gray-1000);
+}
+
+html[data-theme='dark'] .navbar__brand img {
+  color: white;
+}
+
+html[data-theme='dark'] #__docusaurus {
+  background: linear-gradient(
+    110deg,
+    var(--ifm-color-gray-900) 15%,
+    var(--ifm-color-gray-1000) 100%
+  );
+}
+
+#__docusaurus {
+  background: linear-gradient(
+    110deg,
+    var(--ifm-color-gray-100) 15%,
+    var(--ifm-color-gray-200) 100%
+  );
 }
 
 .navbar {
-  background-color: var(--ifm-color-gray-1000);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+html[data-theme='dark'] .navbar {
+  background-color: rgba(0, 0, 0, 0.33);
 }
 
 .features_src-components-HomepageFeatures-module {
-  background-color: var(--ifm-color-gray-1000);
+  background-color: transparent;
+  color: var(--ifm-heading-color);
 }
 .hero {
-  background-color: var(--ifm-color-gray-900);
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--ifm-heading-color);
 }
 .hero--primary {
-  background-color: var(--ifm-color-primary);
+  background-color: transparent;
+  color: var(--ifm-heading-color);
 }
 
 .footer {
-  --ifm-footer-background-color: var(--ifm-color-gray-1000);
+  --ifm-footer-background-color: rgba(255, 255, 255, 1);
   --ifm-footer-color: var(--ifm-footer-link-color);
-  --ifm-footer-link-color: var(--ifm-color-secondary);
-  --ifm-footer-title-color: var(--ifm-color-white);
+  --ifm-footer-link-color: var(--ifm-color-gray-900);
+  --ifm-footer-title-color: var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] .footer {
+  --ifm-footer-background-color: rgba(0, 0, 0, 0.33);
+  --ifm-footer-link-color: var(--ifm-color-gray-0);
 }
 
 .docusaurus-highlight-code-line {
@@ -63,27 +101,5 @@
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
-  --ifm-color-emphasis-100: var(--ifm-color-gray-900);
-  --ifm-color-emphasis-200: var(--ifm-color-gray-800);
-  --ifm-color-emphasis-300: var(--ifm-color-gray-700);
-  --ifm-color-emphasis-400: var(--ifm-color-gray-600);
-  --ifm-color-emphasis-500: var(--ifm-color-gray-500);
-  --ifm-color-emphasis-600: var(--ifm-color-gray-400);
-  --ifm-color-emphasis-700: var(--ifm-color-gray-300);
-  --ifm-color-emphasis-800: var(--ifm-color-gray-200);
-  --ifm-color-emphasis-900: var(--ifm-color-gray-100);
-  --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
-  --ifm-background-color: #18191a;
-  --ifm-background-surface-color: #242526;
-  --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
-  --ifm-color-content-secondary: rgba(255, 255, 255, 1);
-  --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%)
-    hue-rotate(149deg) brightness(99%) contrast(95%);
   --ifm-code-background: hsla(0, 0%, 100%, 0.1);
-  background-color: linear-gradient(
-    65deg,
-    var(--ifm-color-gray-900) 15%,
-    var(--ifm-color-gray-1000) 100%
-  );
 }

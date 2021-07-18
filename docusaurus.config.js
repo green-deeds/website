@@ -1,9 +1,9 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '🌳 Green Deeds',
+  title: 'Green Deeds',
   tagline: 'Empower nature to be self sustainable',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -14,13 +14,13 @@ module.exports = {
   projectName: 'website', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '🌳 Green Deeds',
-      // logo: {
-      //   alt: '🌳 Green Deeds Logo',
-      //   src: 'img/logo.svg',
-      // },
+      title: 'Green Deeds',
+      logo: {
+        alt: '🌳 Green Deeds Logo',
+        src: 'img/logo.svg',
+      },
       items: [
-        {to: '/blog', label: 'Blog', position: 'right'},
+        { to: '/blog', label: 'Blog', position: 'right' },
         {
           type: 'doc',
           docId: 'welcome',
@@ -106,4 +106,4 @@ module.exports = {
       },
     ],
   ],
-};
+}
