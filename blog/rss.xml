@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>🌳 Green Deeds Blog</title>
+        <title>Green Deeds Blog</title>
         <link>https://your-docusaurus-test-site.com/blog</link>
-        <description>🌳 Green Deeds Blog</description>
+        <description>Green Deeds Blog</description>
         <lastBuildDate>Sat, 17 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
