@@ -20,8 +20,10 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/trees', label: 'Trees', position: 'right' },
+        { to: '/carbon', label: 'Carbon', position: 'right' },
         { to: '/blog', label: 'Blog', position: 'right' },
-        { to: '/roadmap', label: 'Roadmap', position: 'right' },
+        { to: '/about', label: 'About', position: 'right' },
         {
           type: 'doc',
           docId: 'welcome',
@@ -39,8 +41,13 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Documenation',
+          title: 'Green Deeds',
           items: [
+            { to: '/', label: 'Home' },
+            { to: '/trees', label: 'Trees' },
+            { to: '/carbon', label: 'Carbon' },
+            { to: '/blog', label: 'Blog' },
+            { to: '/about', label: 'About' },
             {
               label: 'Documenation',
               to: '/docs/welcome',
