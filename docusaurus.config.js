@@ -21,6 +21,7 @@ module.exports = {
       },
       items: [
         { to: '/blog', label: 'Blog', position: 'right' },
+        { to: '/roadmap', label: 'Roadmap', position: 'right' },
         {
           type: 'doc',
           docId: 'welcome',
