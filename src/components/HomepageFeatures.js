@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'DeFi for Earth',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This decentralized finance platform plants trees with a small percentage of translation fees. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Plant real trees',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We plant a tree for you and you will get a NFT. You can decide location and the type of the new planted tree.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Carbon Credits',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        On the carbon credit marketplace companies can buy certificates backed by real trees in trusted areas. 
       </>
     ),
   },
