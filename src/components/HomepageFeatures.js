@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        This decentralized finance platform plants trees with a small percentage of translation fees. 
+        Use the decentralied Exchange (DEX) of the worlds forests and pay a small translation fees, where we plant trees. 
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        We plant a tree for you and you will get a NFT. You can decide location and the type of the new planted tree.
+        We plant a tree for you and you will get an digital twin of this tree as NFT. You can decide location and the type of the new planted tree.
       </>
     ),
   },
@@ -26,7 +26,34 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        On the carbon credit marketplace companies can buy certificates backed by real trees in trusted areas. 
+        On the carbon credit marketplace everyone can buy verified certificates backed by real trees in trusted areas. 
+      </>
+    ),
+  },
+  {
+    title: 'Green Ecosystem',
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        We create with the community tools and events to bring back the power to the forest.
+      </>
+    ),
+  },
+  {
+    title: 'Knowledge Base',
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Our second goal is to bring infromation about nature to the people an inspire them to keep a healhy environment.
+      </>
+    ),
+  },
+  {
+    title: 'AI satelite monitoring',
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Our software monitors in realtime our planted through satalite date and a artificial intelligence checks for fires, illegal deforestation and general tree tracking.
       </>
     ),
   },
